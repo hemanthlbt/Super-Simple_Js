@@ -225,6 +225,7 @@ Es6:
 - Weak map
 - Set
 - Weak Set.
+These are introduced in ES6.
 ```
 
 ```md
@@ -252,7 +253,97 @@ console.log(object1.fullname)
 ```
 ### Easy right?
 
+### Arrays.
+```md
+By using arrays we can use a collection of values in a single memory location.
+It stores only values.Internally js attaches index numbers to the values in the array.By using index numbers we can access the values.
+```
 
+```js
+let array1 = [1,2,3,4,5,6,7,8,9]
+let array2 = ["Kendrik","drake","beyonce","jayz","hanumankind"]
+let array3 = [1,"kendrik","drake",245,"legion"]
+```
 
+```md
+In the above mentioned box we have declared 3 types of arrays.
+1.array1 = Numbers array.
+2.array2 = Names array.
+3.Array3 = Mixed array.(you can actually store multiple values).
+It can either be numbres, names or float numbers.
+```
 
+### Functions.
 
+```md
+A function is a block of code,By using functions we can do some task and return some value.
+```
+
+```js
+function name = {
+console.log("My name is america")
+}
+name()
+```
+
+```md
+There are a few types of functions in js.
+We will get to that later.
+But these are fun tooo.
+The above functions is called a function declaration.
+```
+
+### Type of operator.
+```md
+By using this type of operator we can find out the data type of the value which is stored in the memory.
+Let's say if you want ot find out what type of value this is.......
+```
+
+```js
+var number = 24;
+console.log(typeof number)
+//Outputs:number
+
+//Another example
+var name  = "Los angeles"
+console.log(typeof name)
+//outputs : String.
+
+var array1 = ["Losangeles","Neywork","Texas"]
+console.log(typeof array1)
+//Outputs: Array
+//That's how cool JavaScript is.
+```
+### Operators
+
+```md
+What are operators?
+We use operators to develop logic or expression in combinations with variables.
+There are several types of operators in Js.
+
+- Arthematic operator.(+,-,*,/,%,**,++,--)
+- Assignment operator.(=)
+- Comprission operator.()
+- Ternery operator.()
+- Logical operator.()
+```
+
+```md
+Arthematic operators.
+So what does these symbols mean.
+(+,-,*,/,%,**,++,--)
+```
+
+```js
+var audi = 100;
+var bmw = 200;
+console.log(audi+bmw)
+//Output : 300
+```
+
+```js
+var audi = 300
+var bmw = 100
+console.log(audi-bmw);
+//Output : 200
+```
