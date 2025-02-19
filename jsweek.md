@@ -176,3 +176,6 @@ true or false using boolean data types.
 var bool1= true;
 var bool2 = false;
 ```
+
+
+"this is hemanth kumar"
