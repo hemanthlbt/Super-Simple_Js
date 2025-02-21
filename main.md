@@ -361,3 +361,9 @@ If you want to delay the process or if you wan to make the function wait for the
 ```js
 setTimeout(function(){conole.log("This is s settimeout function")},4000)
 ```
+
+
+```md
+what is a json file
+```
+
