@@ -364,6 +364,24 @@ setTimeout(function(){conole.log("This is s settimeout function")},4000)
 
 
 ```md
-what is a json file
+what is a json file??
+
+A json file is a Javascript object notation file and it is used to create files 
+JSON is simply a data representation format very similar to xml and ymal.
+It is used because it's extermley light weight to send the data back and forth, due to it's small file size.It's easy to read compared to xml.
+Here is an quick example for the .JSOn file.
 ```
+```js
+[
+{"company1":"google","fonder":"larrypage","ceo":"sundarpichai",},
+{"company2":"Apple","founder":"Stevejobs","ceo":"timcook",},
+{"company3":"amazon","founder":"Jeffbesoz","ceo":"jeffbezos"}
+]
+```
+```md
+So basically json file is kind of an object inside an array.
+Get it.
+```
+
+
 
