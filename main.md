@@ -350,5 +350,14 @@ console.log(audi-bmw);
 
 ```md
 123 git test
+```
 
+### Set timeout function.
+```md
+Now we will look at the set timeout funtion.
+If you want to delay the process or if you wan to make the function wait for the gicen specific time you can use this set timeout function.
+```
+
+```js
+setTimeout(function(){conole.log("This is s settimeout function")},4000)
 ```
