@@ -3,6 +3,11 @@
 	src : url(SFPRODISPLAYREGULAR.OTF);
 }
 
+
+body {
+	background-color : black;
+}
+
 .parent {
 	display : flex;
 	justify-content: center;
@@ -10,15 +15,22 @@
 }
 
 .container {
-	height : 500px;
-	width : 500px;
-	background-color: skyblue;
+	height : 100px;
+	width : 400px;
+	background-color: #6495ED;
 	display : flex;
 	justify-content: space-evenly;
 	align-items : center;
 	flex-wrap: wrap;
 	font-family : apple;
+	border : 5px solid black;
+	border-radius : 20px;
+	color : white;
+	padding-left : 20px;
+	padding -bottom : 10px;
+	font-size : 20px;
 }
+
 
 #a1 {
 	height : 50px;
