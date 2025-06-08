@@ -1,0 +1,63 @@
+@font-face {
+	font-family : apple;
+	src : url(SFPRODISPLAYREGULAR.OTF);
+}
+
+
+body {
+	background-color : black;
+}
+
+.parent {
+	display : flex;
+	justify-content: center;
+	padding-top : 100px;
+}
+
+.container {
+	height : 100px;
+	width : 400px;
+	background-color: #6495ED;
+	display : flex;
+	justify-content: space-evenly;
+	align-items : center;
+	flex-wrap: wrap;
+	font-family : apple;
+	border : 5px solid black;
+	border-radius : 20px;
+	color : white;
+	padding-left : 20px;
+	padding -bottom : 10px;
+	font-size : 20px;
+}
+
+
+#a1 {
+	height : 50px;
+	width : 50px;
+	background-color : grey;
+	border : 2px solid black;
+	border-radius : 2px; 
+
+}
+#a2 {
+	height : 50px;
+	width : 50px;
+	background-color : grey;
+	border : 2px solid black;
+	border-radius : 2px;
+}
+#a3 {
+	height : 50px;
+	width : 50px;
+	background-color : grey;
+	border : 2px solid black;
+	border-radius : 2px;
+}
+#a4 {
+	height : 50px;
+	width : 50px;
+	background-color : grey;
+	border : 2px solid black;
+	border-radius : 2px;
+}
